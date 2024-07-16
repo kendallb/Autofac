@@ -15,7 +15,7 @@ internal class CircularDependencyDetectorMiddleware : IResolveMiddleware
     /// <summary>
     /// Defines the default max resolve depth.
     /// </summary>
-    public const int DefaultMaxResolveDepth = 50;
+    public const int DefaultMaxResolveDepth = 100;
 
     /// <summary>
     /// Gets the default instance of <see cref="CircularDependencyDetectorMiddleware"/>.
